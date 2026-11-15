@@ -1,0 +1,64 @@
+/* Self-hosted fonts: no third-party requests, no cookie banners. */
+@font-face {
+  font-family: 'Instrument Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/instrument-serif-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Instrument Serif';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/instrument-serif-400-italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ibm-plex-mono-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/ibm-plex-mono-500.woff2') format('woff2');
+}
+
+:root {
+  /* Paper, ink, and one green. Tints are mixed from those three. */
+  --paper: #f3efe4;
+  --paper-raised: #faf7ee;
+  --paper-deep: #e9e3d5;
+  --ink: #191b14;
+  --ink-raised: #24271d;
+  --ink-soft: #3c3f33;
+  --muted: #5d6052;
+  --moss: #40553a;
+  --moss-deep: #2d3f28;
+  --moss-bright: #a9bd8f;
+  --moss-tint: #e6e9d9;
+
+  --line: rgba(25, 27, 20, 0.14);
+  --line-strong: rgba(25, 27, 20, 0.3);
+  --line-dark: rgba(243, 239, 228, 0.16);
+  --line-dark-strong: rgba(243, 239, 228, 0.32);
+
+  --font-display: 'Instrument Serif', 'Iowan Old Style', 'Palatino Linotype',
+    Georgia, serif;
+  --font-body: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'Cascadia Mono', Consolas,
+    monospace;
+
+  --maxw: 1180px;
+  --gutter: clamp(20px, 4vw, 44px);
+  --section-y: clamp(72px, 9vw, 118px);
+  --focus-color: var(--moss);
+}
