@@ -1,4 +1,4 @@
-# Study Quest — website
+# Study Quest website
 
 The download and marketing site for **Study Quest**, a local-first Windows study
 tracker. The app turns focus sessions into XP, streaks, missions, and a
